@@ -1,13 +1,13 @@
-//const Length = (x) => {return x }//
+var Length = (x) => {return x }
 
-const Length = new Vue({
+var Length = new Vue({
     el: '#Length Calculater',
     data: {
       name : 'sumana'
       },
     computed: {
         length : function () {
-          const i = name.length(),
+          var i = name.length(),
             return `The Length of a given name is ${Length( i )}.`
         }
       }
