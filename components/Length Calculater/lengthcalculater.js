@@ -1,4 +1,4 @@
-var Length = (x) => {return x }
+var Length = (x) => {return x.length() }
 
 var Length = new Vue({
     el: '#Length Calculater',
@@ -8,7 +8,8 @@ var Length = new Vue({
     computed: {
         name : function () {
           var i = name.length(),
-            return `The Length of a given name is ${Length( i )}.`
+            return `The Length of a given name is ${name.length(i)}.`
+            
         }
       }
     })
