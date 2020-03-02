@@ -6,7 +6,7 @@ var Length = new Vue({
       name : 'sumana'
       },
     computed: {
-        length : function () {
+        name : function () {
           var i = name.length(),
             return `The Length of a given name is ${Length( i )}.`
         }
