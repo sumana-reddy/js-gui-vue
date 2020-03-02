@@ -1,4 +1,4 @@
-const Length = (x) => {return x }
+//const Length = (x) => {return x }//
 
 const Length = new Vue({
     el: '#Length Calculater',
