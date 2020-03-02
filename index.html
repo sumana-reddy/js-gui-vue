@@ -146,6 +146,20 @@
         <h3 class="mt-2">{{multiplier}}</h3>
       </article>
 
+
+
+      <article id="Length Calculater" class="col-md-4 ">
+        <h2>Vue is awesome!</h2>
+        <p>Two-way data binding listens for changes and automatically updates.</p>
+        <p>This is component which calculates the length of a given string!</p>
+
+        <fieldset class="mt-2">
+          <label for="name">Enter your name (2 to 20 characters):</label>
+          <input v-model="name" id="name" type="text" minlength="2" maxlength="20">
+        </fieldset>
+        <h3 class="mt-2">{{length}}</h3>
+      </article>
+
     </div>
 
   </main>
@@ -187,6 +201,7 @@
   <script src="components/findSum/findSum.js"></script>
   <script src="components/coder/coder.js"></script>
   <script src="components/multiplier/multiplier.js"></script>
+  <script src="components/Length Calculater/lengthcalculater.js"></script>
 
 </body>
 

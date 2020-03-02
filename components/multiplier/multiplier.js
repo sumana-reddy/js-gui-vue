@@ -4,8 +4,8 @@ const multiplier = new Vue({
     el: '#multiplier',
     data: {
       firstnumber: 4,
-      secondnumber: 3
-      thirdnumber: 5,
+      secondnumber: 3,
+      thirdnumber: 5
     },
     computed: {
         multiplier : function () {
