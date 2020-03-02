@@ -1,4 +1,6 @@
-var word_Length = (x) => {return x.length }
+var word_Length = (x) => {
+  console.log(x.length);
+  return x.length }
 
 var word_Length = new Vue({
     el: '#word_Length',
@@ -7,8 +9,8 @@ var word_Length = new Vue({
       },
     computed: {
         length : function () {
-          var i = word.length(),
-            return `The Length of a given name is ${length(i)}.`
+          const i = parseInt(this.word)
+          return `The Length of a given name is ${word_Length(i)}.`
             
         }
       }
